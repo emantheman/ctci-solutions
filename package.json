@@ -1,0 +1,19 @@
+{
+  "name": "cracking_the_coding_interview_solutions",
+  "version": "1.0.0",
+  "description": "Problem solutions for Cracking the Coding Interview 6th Edition by MCDOWELL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "JavaScript",
+    "Interview",
+    "Whiteboarding"
+  ],
+  "author": "Emmanuel Price",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
