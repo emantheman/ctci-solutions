@@ -22,7 +22,7 @@ const countBrushstrokes = skyline => {
         brushstrokes++
         // negate flag
         isNew = false
-      } else if (skyline[i] < height) { // if the stroke ends
+      } else if (!isNew && skyline[i] < height) { // if the stroke ends
         // the next stroke is new
         isNew = true
       }
